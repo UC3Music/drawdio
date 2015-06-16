@@ -77,6 +77,25 @@ F 3 "~" H 4650 3000 30  0000 C CNN
 	1    4650 3000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4400 3750 4650 3750
+Wire Wire Line
+	4650 3750 4900 3750
+Wire Wire Line
+	4650 3750 4650 3250
+Wire Wire Line
+	5250 2750 5250 2350
+Wire Wire Line
+	4400 3750 4400 4900
+Wire Wire Line
+	4400 4900 6550 4900
+Wire Wire Line
+	6550 4150 6550 4900
+Wire Wire Line
+	6550 4900 6550 5000
+Wire Wire Line
+	6550 4150 6300 4150
+Connection ~ 4650 3750
 $Comp
 L R-RESCUE-drawdio R2
 U 1 1 5535828D
@@ -88,6 +107,10 @@ F 3 "~" H 6800 2750 30  0000 C CNN
 	1    6800 2750
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	6550 2750 6550 3950
+Wire Wire Line
+	6550 3950 6300 3950
 $Comp
 L C-RESCUE-drawdio C2
 U 1 1 55358310
@@ -110,6 +133,10 @@ F 3 "" H 7400 4600 60  0000 C CNN
 	1    7400 4600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7400 4600 7400 4450
+Wire Wire Line
+	4600 4000 4900 4000
 $Comp
 L VCC #PWR02
 U 1 1 55358356
@@ -121,6 +148,8 @@ F 3 "" H 4800 4250 60  0000 C CNN
 	1    4800 4250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4800 4250 4900 4250
 $Comp
 L VCC #PWR03
 U 1 1 55358383
@@ -132,13 +161,15 @@ F 3 "" H 7150 2750 60  0000 C CNN
 	1    7150 2750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7150 2750 7050 2750
 $Comp
 L BC547 Q2
 U 1 1 553583A7
 P 7300 4250
 F 0 "Q2" H 7300 4101 40  0000 R CNN
 F 1 "BC547" H 7300 4400 40  0000 R CNN
-F 2 "Housings_TO-92:TO-92_Molded_Wide_Oval" H 7200 4352 29  0000 C CNN
+F 2 "Housings_TO-92:TO-92_Rugged" H 7200 4352 29  0000 C CNN
 F 3 "" H 7300 4250 60  0000 C CNN
 	1    7300 4250
 	1    0    0    -1  
@@ -149,11 +180,19 @@ U 1 1 553583B6
 P 7300 3750
 F 0 "Q1" H 7300 3601 40  0000 R CNN
 F 1 "BC558" H 7300 3900 40  0000 R CNN
-F 2 "Housings_TO-92:TO-92_Molded_Wide_Oval" H 7200 3852 29  0000 C CNN
+F 2 "Housings_TO-92:TO-92_Rugged" H 7200 3852 29  0000 C CNN
 F 3 "" H 7300 3750 60  0000 C CNN
 	1    7300 3750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6300 3750 7050 3750
+Wire Wire Line
+	7050 3750 7100 3750
+Wire Wire Line
+	7400 3950 7400 4000
+Wire Wire Line
+	7400 4000 7400 4050
 $Comp
 L CP-RESCUE-drawdio C4
 U 1 1 55358485
@@ -165,6 +204,14 @@ F 3 "~" H 7700 4000 300 0000 C CNN
 	1    7700 4000
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	7050 3750 7050 4250
+Wire Wire Line
+	7050 4250 7100 4250
+Connection ~ 7050 3750
+Wire Wire Line
+	7400 4000 7500 4000
+Connection ~ 7400 4000
 $Comp
 L C-RESCUE-drawdio C3
 U 1 1 553584D8
@@ -187,6 +234,9 @@ F 3 "" H 6550 5550 60  0000 C CNN
 	1    6550 5550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6550 5550 6550 5400
+Connection ~ 6550 4900
 $Comp
 L CONN_2 P2
 U 1 1 55358531
@@ -198,6 +248,16 @@ F 3 "" H 8550 4100 60  0000 C CNN
 	1    8550 4100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7900 4000 8100 4000
+Wire Wire Line
+	8100 4000 8200 4000
+Wire Wire Line
+	8200 4200 8000 4200
+Wire Wire Line
+	8000 3200 8000 4200
+Wire Wire Line
+	8000 4200 8000 4600
 $Comp
 L GND-RESCUE-drawdio #PWR05
 U 1 1 5535858B
@@ -209,6 +269,12 @@ F 3 "" H 8000 4600 60  0000 C CNN
 	1    8000 4600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4650 2750 5250 2750
+Wire Wire Line
+	5450 2350 5450 2750
+Wire Wire Line
+	5450 2750 6550 2750
 $Comp
 L GND-RESCUE-drawdio #PWR06
 U 1 1 553585E1
@@ -242,6 +308,14 @@ F 3 "~" H 3650 4600 300 0000 C CNN
 	1    3650 4600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3650 4250 3650 4300
+Wire Wire Line
+	3650 4300 3650 4400
+Wire Wire Line
+	3650 4800 3650 4900
+Wire Wire Line
+	3650 4900 3650 5050
 $Comp
 L BATTERY BT1
 U 1 1 5535868B
@@ -253,92 +327,58 @@ F 3 "~" H 3250 4600 60  0000 C CNN
 	1    3250 4600
 	0    1    1    0   
 $EndComp
-$Comp
-L GND-RESCUE-drawdio #PWR08
-U 1 1 558086F5
-P 4600 4550
-F 0 "#PWR08" H 4600 4550 30  0001 C CNN
-F 1 "GND" H 4600 4480 30  0001 C CNN
-F 2 "" H 4600 4550 60  0000 C CNN
-F 3 "" H 4600 4550 60  0000 C CNN
-	1    4600 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR09
-U 1 1 55808C03
-P 3650 4250
-F 0 "#PWR09" H 3650 4350 30  0001 C CNN
-F 1 "VCC" H 3650 4350 30  0000 C CNN
-F 2 "" H 3650 4250 60  0000 C CNN
-F 3 "" H 3650 4250 60  0000 C CNN
-	1    3650 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 3750 4900 3750
-Wire Wire Line
-	4650 3750 4650 3250
-Wire Wire Line
-	5250 2750 5250 2350
-Wire Wire Line
-	4400 3750 4400 4900
-Wire Wire Line
-	4400 4900 6550 4900
-Wire Wire Line
-	6550 4150 6550 5000
-Wire Wire Line
-	6550 4150 6300 4150
-Connection ~ 4650 3750
-Wire Wire Line
-	6550 2750 6550 3950
-Wire Wire Line
-	6550 3950 6300 3950
-Wire Wire Line
-	7400 4600 7400 4450
-Wire Wire Line
-	4600 4000 4900 4000
-Wire Wire Line
-	4800 4250 4900 4250
-Wire Wire Line
-	7150 2750 7050 2750
-Wire Wire Line
-	6300 3750 7100 3750
-Wire Wire Line
-	7400 3950 7400 4050
-Wire Wire Line
-	7050 3750 7050 4250
-Wire Wire Line
-	7050 4250 7100 4250
-Connection ~ 7050 3750
-Wire Wire Line
-	7400 4000 7500 4000
-Connection ~ 7400 4000
-Wire Wire Line
-	6550 5550 6550 5400
-Connection ~ 6550 4900
-Wire Wire Line
-	7900 4000 8200 4000
-Wire Wire Line
-	8200 4200 8000 4200
-Wire Wire Line
-	4650 2750 5250 2750
-Wire Wire Line
-	5450 2350 5450 2750
-Wire Wire Line
-	5450 2750 6550 2750
-Wire Wire Line
-	3650 4250 3650 4400
-Wire Wire Line
-	3650 4800 3650 5050
 Wire Wire Line
 	3250 4300 3650 4300
 Connection ~ 3650 4300
 Wire Wire Line
 	3250 4900 3650 4900
 Connection ~ 3650 4900
+$Comp
+L JACK J1
+U 1 1 553587DE
+P 8600 3250
+F 0 "J1" H 8700 3750 60  0000 C CNN
+F 1 "JACK" H 8400 3750 60  0000 C CNN
+F 2 "Connect:PINHEAD1-3" H 8750 3250 60  0000 C CNN
+F 3 "~" H 8750 3250 60  0000 C CNN
+	1    8600 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 3200 8200 3200
+Connection ~ 8000 4200
+Wire Wire Line
+	8100 4000 8100 3450
+Wire Wire Line
+	8100 3450 8100 3250
+Wire Wire Line
+	8100 3250 8200 3250
+Connection ~ 8100 4000
+Wire Wire Line
+	8200 3450 8100 3450
+Connection ~ 8100 3450
+$Comp
+L GND-RESCUE-drawdio #PWR?
+U 1 1 558086F5
+P 4600 4550
+F 0 "#PWR?" H 4600 4550 30  0001 C CNN
+F 1 "GND" H 4600 4480 30  0001 C CNN
+F 2 "" H 4600 4550 60  0000 C CNN
+F 3 "" H 4600 4550 60  0000 C CNN
+	1    4600 4550
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4600 4550 4600 4400
-Wire Wire Line
-	8000 4200 8000 4600
+$Comp
+L VCC #PWR?
+U 1 1 55808C03
+P 3650 4250
+F 0 "#PWR?" H 3650 4350 30  0001 C CNN
+F 1 "VCC" H 3650 4350 30  0000 C CNN
+F 2 "" H 3650 4250 60  0000 C CNN
+F 3 "" H 3650 4250 60  0000 C CNN
+	1    3650 4250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
