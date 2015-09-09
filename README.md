@@ -28,11 +28,7 @@ Placa en una sola capa de cobre (para facilitar la fabricación casera), pads gr
 
 *Próximas mejoras: nueva etapa de salida que proporcionará (al menos) el doble de voltaje de salida para conseguir más potencia.*
 
-
-
-
 <p align="center">
+<img src="media/boardsim.JPG" width="100%">
+</p>  
 
-<img src="media/board_sim.jpg" width="100%">
-
-</p>
