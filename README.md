@@ -1,9 +1,9 @@
-﻿Drawdio
+#Drawdio#
 
 ---------------------------------------
 
 
-UC3Music version of the Drawdio, originally designed by Jay Silver
+UC3Music version of Drawdio, originally designed by Jay Silver
 
 
 
