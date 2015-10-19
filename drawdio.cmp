@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 08/09/2015 20:58:31
+Cmp-Mod V01 Created by Cvpcb (after 2015-may-01 BZR unknown)-product   date = 19/10/2015 4:05:20
 
 BeginCmp
 TimeStamp = /5535868B;
 Reference = BT1;
 ValeurCmp = BATTERY;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+IdModule  = drawdio:CR2025_Keystone_3002_button_cell_holder_SMT;
 EndCmp
 
 BeginCmp
@@ -36,31 +36,80 @@ IdModule  = Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5;
 EndCmp
 
 BeginCmp
-TimeStamp = /5535819F;
+TimeStamp = /56241D86;
 Reference = P1;
-ValeurCmp = CONN_2;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+ValeurCmp = CONN_01X01;
+IdModule  = drawdio:Drawdio_conn;
 EndCmp
 
 BeginCmp
-TimeStamp = /55EF137E;
+TimeStamp = /56241E1F;
 Reference = P2;
 ValeurCmp = CONN_01X01;
-IdModule  = Pin_Headers:Pin_Header_Straight_1x01;
+IdModule  = drawdio:Drawdio_conn;
+EndCmp
+
+BeginCmp
+TimeStamp = /56244D2E;
+Reference = P3;
+ValeurCmp = CONN_01X01;
+IdModule  = Mounting_Holes:MountingHole_2-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /562400DE;
+Reference = P4;
+ValeurCmp = CONN_01X02;
+IdModule  = drawdio:RS_mini_speaker_724-3100;
+EndCmp
+
+BeginCmp
+TimeStamp = /56244EEB;
+Reference = P5;
+ValeurCmp = CONN_01X01;
+IdModule  = Mounting_Holes:MountingHole_2-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56244F67;
+Reference = P6;
+ValeurCmp = CONN_01X01;
+IdModule  = Mounting_Holes:MountingHole_2-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /56244F6E;
+Reference = P7;
+ValeurCmp = CONN_01X01;
+IdModule  = Mounting_Holes:MountingHole_2-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5624397B;
+Reference = Q1;
+ValeurCmp = BC558;
+IdModule  = Housings_TO-92:TO-92_Molded_Wide_Oval;
+EndCmp
+
+BeginCmp
+TimeStamp = /56243988;
+Reference = Q2;
+ValeurCmp = BC547;
+IdModule  = Housings_TO-92:TO-92_Molded_Wide_Oval;
 EndCmp
 
 BeginCmp
 TimeStamp = /553583B6;
-Reference = Q1;
+Reference = Q3;
 ValeurCmp = BC558;
-IdModule  = drawdio:TO-92_JorFru_compact;
+IdModule  = Housings_TO-92:TO-92_Molded_Wide_Oval;
 EndCmp
 
 BeginCmp
 TimeStamp = /553583A7;
-Reference = Q2;
+Reference = Q4;
 ValeurCmp = BC547;
-IdModule  = drawdio:TO-92_JorFru_compact;
+IdModule  = Housings_TO-92:TO-92_Molded_Wide_Oval;
 EndCmp
 
 BeginCmp
