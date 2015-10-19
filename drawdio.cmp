@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-may-01 BZR unknown)-product   date = 19/10/2015 4:05:20
+Cmp-Mod V01 Created by Cvpcb (after 2015-may-01 BZR unknown)-product   date = 19/10/2015 4:43:55
 
 BeginCmp
 TimeStamp = /5535868B;
@@ -50,7 +50,7 @@ IdModule  = drawdio:Drawdio_conn;
 EndCmp
 
 BeginCmp
-TimeStamp = /56244D2E;
+TimeStamp = /56249E74;
 Reference = P3;
 ValeurCmp = CONN_01X01;
 IdModule  = Mounting_Holes:MountingHole_2-5mm;
@@ -64,24 +64,31 @@ IdModule  = drawdio:RS_mini_speaker_724-3100;
 EndCmp
 
 BeginCmp
-TimeStamp = /56244EEB;
+TimeStamp = /56249F93;
 Reference = P5;
 ValeurCmp = CONN_01X01;
 IdModule  = Mounting_Holes:MountingHole_2-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /56244F67;
+TimeStamp = /56249FEB;
 Reference = P6;
 ValeurCmp = CONN_01X01;
 IdModule  = Mounting_Holes:MountingHole_2-5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /56244F6E;
+TimeStamp = /5624A048;
 Reference = P7;
 ValeurCmp = CONN_01X01;
 IdModule  = Mounting_Holes:MountingHole_2-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5624AD30;
+Reference = P8;
+ValeurCmp = CONN_01X01;
+IdModule  = drawdio:Symbol_OSHW-Logo_SilkScreen_BIG;
 EndCmp
 
 BeginCmp
