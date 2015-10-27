@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-may-01 BZR unknown)-product   date = 19/10/2015 4:43:55
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 27/10/2015 16:43:33
 
 BeginCmp
 TimeStamp = /5535868B;
@@ -92,6 +92,20 @@ IdModule  = drawdio:Symbol_OSHW-Logo_SilkScreen_BIG;
 EndCmp
 
 BeginCmp
+TimeStamp = /562F6FA6;
+Reference = P9;
+ValeurCmp = CONN_02X04;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /562F9FC9;
+Reference = P10;
+ValeurCmp = CONN_01X02;
+IdModule  = drawdio:AAA_cell_holder;
+EndCmp
+
+BeginCmp
 TimeStamp = /5624397B;
 Reference = Q1;
 ValeurCmp = BC558;
@@ -131,6 +145,20 @@ TimeStamp = /5535828D;
 Reference = R2;
 ValeurCmp = R;
 IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /562F9364;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /562F928B;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Discret:R1;
 EndCmp
 
 BeginCmp
