@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 27/10/2015 16:43:33
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = 27/10/2015 19:06:03
 
 BeginCmp
 TimeStamp = /5535868B;
@@ -82,13 +82,6 @@ TimeStamp = /5624A048;
 Reference = P7;
 ValeurCmp = CONN_01X01;
 IdModule  = Mounting_Holes:MountingHole_2-5mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /5624AD30;
-Reference = P8;
-ValeurCmp = CONN_01X01;
-IdModule  = drawdio:Symbol_OSHW-Logo_SilkScreen_BIG;
 EndCmp
 
 BeginCmp
