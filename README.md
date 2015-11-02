@@ -6,14 +6,10 @@
 UC3Music version of Drawdio, originally designed by Jay Silver
 
 
-
-One-side copper board (for easy home-manufacturing), big and spacy pads (ready for first-time soldering)
-
+Double side copper board, big and spacy pads (ready for first-time soldering)
 
 
-*Coming soon: new output stage to provide (at least) twice output voltage.*
-
-
+*Uc3Music's enchancement: New output stage to provide twice output voltage and raise volume.*
 
 
 ========================================
@@ -21,13 +17,11 @@ One-side copper board (for easy home-manufacturing), big and spacy pads (ready f
 Versión UC3Music del Drawdio, diseñado originalmente por Jay Silver
 
 
-
-Placa en una sola capa de cobre (para facilitar la fabricación casera), pads grandes y espaciados (facil de soldar por noveles)
-
+PCB de doble cara, pads grandes y espaciados (facil de soldar por noveles)
 
 
-*Próximas mejoras: nueva etapa de salida que proporcionará (al menos) el doble de voltaje de salida para conseguir más potencia.*
+*Mejora de UC3Music: nueva etapa de salida que proporciona el doble de voltaje de salida para conseguir más volumen de salida.*
 
 <p align="center">
-<img src="https://github.com/UC3Music-e/drawdio/blob/master/media/board_sim.PNG" width="100%">
+<img src="https://github.com/UC3Music-e/drawdio/blob/master/media/drawdioV1.0.PNG" width="100%">
 </p>
