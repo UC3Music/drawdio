@@ -11,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -36,12 +35,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Drawdio"
 Date "20 apr 2015"
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Rev "V1.0"
+Comp "UC3Music"
+Comment1 "Originally designed by Jay Silver"
+Comment2 "Upgrades on output stage by JorFru"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -128,7 +127,7 @@ U 1 1 553583B6
 P 8350 3500
 F 0 "Q3" H 8350 3351 40  0000 R CNN
 F 1 "BC558" H 8350 3650 40  0000 R CNN
-F 2 "Housings_TO-92:TO-92_Molded_Wide_Oval" H 8250 3602 29  0000 C CNN
+F 2 "Housings_TO-92:TO-92_Molded_Wide_Oval" H 7700 3600 29  0001 C CNN
 F 3 "" H 8350 3500 60  0000 C CNN
 	1    8350 3500
 	1    0    0    1   
@@ -139,7 +138,7 @@ U 1 1 55358485
 P 8800 3950
 F 0 "C4" H 8850 4050 40  0000 L CNN
 F 1 "CP" H 8850 3850 40  0000 L CNN
-F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5" H 8900 3800 30  0000 C CNN
+F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5" H 8900 3800 30  0001 C CNN
 F 3 "~" H 8800 3950 300 0000 C CNN
 	1    8800 3950
 	1    0    0    -1  
@@ -150,7 +149,7 @@ U 1 1 553584D8
 P 6550 5200
 F 0 "C3" H 6550 5300 40  0000 L CNN
 F 1 "C" H 6556 5115 40  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 6588 5050 30  0000 C CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5" H 6588 5050 30  0001 C CNN
 F 3 "~" H 6550 5200 60  0000 C CNN
 	1    6550 5200
 	1    0    0    -1  
@@ -194,7 +193,7 @@ U 1 1 5535860E
 P 3650 4600
 F 0 "C1" H 3700 4700 40  0000 L CNN
 F 1 "CP" H 3700 4500 40  0000 L CNN
-F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5" H 3750 4450 30  0000 C CNN
+F 2 "Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5" H 7850 5600 30  0001 C CNN
 F 3 "~" H 3650 4600 300 0000 C CNN
 	1    3650 4600
 	1    0    0    -1  
@@ -205,7 +204,7 @@ U 1 1 5535868B
 P 3250 4600
 F 0 "BT1" H 3250 4800 50  0000 C CNN
 F 1 "BATTERY" H 3250 4410 50  0000 C CNN
-F 2 "drawdio:CR2025_Keystone_3002_button_cell_holder_SMT" H 3250 4600 60  0000 C CNN
+F 2 "drawdio:CR2025_Keystone_3002_button_cell_holder_SMT" H 3400 5350 60  0001 C CNN
 F 3 "~" H 3250 4600 60  0000 C CNN
 	1    3250 4600
 	0    1    1    0   
@@ -260,7 +259,7 @@ U 1 1 553583A7
 P 8350 4000
 F 0 "Q4" H 8350 3851 40  0000 R CNN
 F 1 "BC547" H 8350 4150 40  0000 R CNN
-F 2 "Housings_TO-92:TO-92_Molded_Wide_Oval" H 8250 4102 29  0000 C CNN
+F 2 "Housings_TO-92:TO-92_Molded_Wide_Oval" H 8250 4102 29  0001 C CNN
 F 3 "" H 8350 4000 60  0000 C CNN
 	1    8350 4000
 	1    0    0    -1  
@@ -282,7 +281,7 @@ U 1 1 5624397B
 P 7450 3500
 F 0 "Q1" H 7450 3351 40  0000 R CNN
 F 1 "BC558" H 7450 3650 40  0000 R CNN
-F 2 "Housings_TO-92:TO-92_Molded_Wide_Oval" H 7350 3602 29  0000 C CNN
+F 2 "Housings_TO-92:TO-92_Molded_Wide_Oval" H 7350 3602 29  0001 C CNN
 F 3 "" H 7450 3500 60  0000 C CNN
 	1    7450 3500
 	1    0    0    1   
@@ -304,7 +303,7 @@ U 1 1 56243988
 P 7450 4000
 F 0 "Q2" H 7450 3851 40  0000 R CNN
 F 1 "BC547" H 7450 4150 40  0000 R CNN
-F 2 "Housings_TO-92:TO-92_Molded_Wide_Oval" H 7350 4102 29  0000 C CNN
+F 2 "Housings_TO-92:TO-92_Molded_Wide_Oval" V 7350 4102 29  0001 C CNN
 F 3 "" H 7450 4000 60  0000 C CNN
 	1    7450 4000
 	1    0    0    -1  
@@ -312,12 +311,12 @@ $EndComp
 $Comp
 L CONN_01X02 P4
 U 1 1 562400DE
-P 9000 4600
-F 0 "P4" H 9000 4750 50  0000 C CNN
-F 1 "CONN_01X02" V 9100 4600 50  0000 C CNN
-F 2 "drawdio:RS_mini_speaker_724-3100" H 9000 4600 60  0001 C CNN
-F 3 "" H 9000 4600 60  0000 C CNN
-	1    9000 4600
+P 9000 5050
+F 0 "P4" H 9000 5200 50  0000 C CNN
+F 1 "CONN_01X02" V 9100 5050 50  0000 C CNN
+F 2 "drawdio:RS_mini_speaker_724-3100" H 9000 5050 60  0001 C CNN
+F 3 "" H 9000 5050 60  0000 C CNN
+	1    9000 5050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -416,7 +415,6 @@ Wire Wire Line
 Connection ~ 3650 4900
 Wire Wire Line
 	4600 4550 4600 4400
-Connection ~ 8800 4550
 Wire Wire Line
 	7550 4350 7550 4200
 Wire Wire Line
@@ -428,21 +426,21 @@ Wire Wire Line
 Connection ~ 7550 3750
 Connection ~ 8150 3750
 Wire Wire Line
-	8800 4150 8800 4550
+	8800 4150 8800 5000
 Wire Wire Line
 	8450 3700 8450 3800
 Connection ~ 8450 3750
 Wire Wire Line
-	7700 3750 7700 4650
+	7700 3750 7700 5100
 Wire Wire Line
-	7700 4650 8800 4650
+	7700 5100 8800 5100
 Connection ~ 7700 3750
 $Comp
 L CONN_02X04 P9
 U 1 1 562F6FA6
 P 5550 3050
 F 0 "P9" H 5550 3300 50  0000 C CNN
-F 1 "CONN_02X04" H 5550 2800 50  0000 C CNN
+F 1 "CONN_02X04" H 5550 2800 50  0001 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5550 1850 60  0001 C CNN
 F 3 "" H 5550 1850 60  0000 C CNN
 	1    5550 3050
@@ -528,4 +526,66 @@ Connection ~ 3250 4300
 Wire Wire Line
 	2950 4650 2950 4900
 Connection ~ 3250 4900
+Wire Notes Line
+	6800 3050 6800 4450
+Wire Notes Line
+	6800 4450 9050 4450
+Wire Notes Line
+	9050 4450 9050 3050
+Wire Notes Line
+	9050 3050 6800 3050
+Wire Notes Line
+	7700 2450 7700 2950
+Wire Notes Line
+	7700 2950 9000 2950
+Wire Notes Line
+	9000 2950 9000 2450
+Wire Notes Line
+	9000 2450 7700 2450
+Text Notes 8950 4800 0    60   ~ 0
+Altavoz
+Text Notes 7600 3150 0    60   ~ 0
+Etapa de salida
+Text Notes 7950 2450 0    60   ~ 0
+Taladros mecánicos
+Wire Notes Line
+	2400 4100 2400 5150
+Wire Notes Line
+	2400 5150 3800 5150
+Wire Notes Line
+	3800 5150 3800 4100
+Wire Notes Line
+	3800 4100 2400 4100
+Text Notes 2800 4000 0    60   ~ 0
+Alimentación
+Wire Notes Line
+	4900 1850 4900 2400
+Wire Notes Line
+	4900 2400 5850 2400
+Wire Notes Line
+	5850 2400 5850 1850
+Wire Notes Line
+	5850 1850 4900 1850
+Text Notes 5000 1950 0    60   ~ 0
+Pads de contacto
+Wire Notes Line
+	4250 2550 4250 5650
+Wire Notes Line
+	4250 5650 6700 5650
+Wire Notes Line
+	6700 5650 6700 2550
+Wire Notes Line
+	6700 2550 4250 2550
+Text Notes 4300 2500 0    60   ~ 0
+Oscilador
+Wire Notes Line
+	5050 2800 5050 3300
+Wire Notes Line
+	5050 3300 6050 3300
+Wire Notes Line
+	6050 3300 6050 2800
+Wire Notes Line
+	6050 2800 5050 2800
+Text Notes 5300 3300 0    60   ~ 0
+footprint SMD
 $EndSCHEMATC

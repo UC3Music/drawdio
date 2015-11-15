@@ -1,4 +1,4 @@
-update=08/09/2015 18:49:53
+update=14/11/2015 22:18:18
 version=1
 last_client=kicad
 [cvpcb]
@@ -65,3 +65,13 @@ LibName30=contrib
 LibName31=valves
 LibName32=kicad-library
 LibName33=/home/jorfru/uC3Moy/KiCadFiles/uC3Moy-cache
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
