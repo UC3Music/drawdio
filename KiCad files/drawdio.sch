@@ -50,7 +50,7 @@ U 1 1 55358209
 P 4650 3000
 F 0 "R1" V 4730 3000 40  0000 C CNN
 F 1 "330K" V 4657 3001 40  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 4580 3000 30  0000 C CNN
+F 2 "drawdio:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 4580 3000 30  0000 C CNN
 F 3 "~" H 4650 3000 30  0000 C CNN
 	1    4650 3000
 	1    0    0    -1  
@@ -61,7 +61,7 @@ U 1 1 5535828D
 P 6350 3000
 F 0 "R2" V 6430 3000 40  0000 C CNN
 F 1 "10K" V 6357 3001 40  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 6280 3000 30  0000 C CNN
+F 2 "drawdio:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 6280 3000 30  0000 C CNN
 F 3 "~" H 6350 3000 30  0000 C CNN
 	1    6350 3000
 	-1   0    0    1   
@@ -72,7 +72,7 @@ U 1 1 55358310
 P 4800 4150
 F 0 "C2" H 4800 4250 40  0000 L CNN
 F 1 "0.1uF" H 4806 4065 40  0000 L CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 4838 4000 30  0000 C CNN
+F 2 "drawdio:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 4838 4000 30  0000 C CNN
 F 3 "~" H 4800 4150 60  0000 C CNN
 	1    4800 4150
 	1    0    0    -1  
@@ -138,7 +138,7 @@ U 1 1 553584D8
 P 6550 5200
 F 0 "C3" H 6550 5300 40  0000 L CNN
 F 1 "680pF" H 6556 5115 40  0000 L CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 6588 5050 30  0001 C CNN
+F 2 "drawdio:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 6588 5050 30  0001 C CNN
 F 3 "~" H 6550 5200 60  0000 C CNN
 	1    6550 5200
 	1    0    0    -1  
@@ -357,7 +357,7 @@ U 1 1 562F928B
 P 8000 3750
 F 0 "R4" V 8080 3750 50  0000 C CNN
 F 1 "1K" V 8000 3750 50  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 7930 3750 30  0001 C CNN
+F 2 "drawdio:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 7930 3750 30  0001 C CNN
 F 3 "" H 8000 3750 30  0000 C CNN
 	1    8000 3750
 	0    1    1    0   
@@ -368,7 +368,7 @@ U 1 1 562F9364
 P 7000 3750
 F 0 "R3" V 7080 3750 50  0000 C CNN
 F 1 "1K" V 7000 3750 50  0000 C CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 6930 3750 30  0001 C CNN
+F 2 "drawdio:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 6930 3750 30  0001 C CNN
 F 3 "" H 7000 3750 30  0000 C CNN
 	1    7000 3750
 	0    1    1    0   
@@ -391,7 +391,7 @@ U 1 1 58824F43
 P 8850 5650
 F 0 "J1" H 8850 6050 50  0000 C CNN
 F 1 "Jack" H 8800 5350 50  0000 C CNN
-F 2 "Connect:BARREL_JACK" H 8950 5500 50  0001 C CNN
+F 2 "drawdio:jack_barato" H 8950 5500 50  0001 C CNN
 F 3 "" H 8950 5500 50  0000 C CNN
 	1    8850 5650
 	-1   0    0    1   

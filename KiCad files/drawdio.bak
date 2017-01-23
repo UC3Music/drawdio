@@ -72,7 +72,7 @@ U 1 1 55358310
 P 4800 4150
 F 0 "C2" H 4800 4250 40  0000 L CNN
 F 1 "0.1uF" H 4806 4065 40  0000 L CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering_RevA_Date25Jun2010" H 4838 4000 30  0000 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 4838 4000 30  0000 C CNN
 F 3 "~" H 4800 4150 60  0000 C CNN
 	1    4800 4150
 	1    0    0    -1  
@@ -138,7 +138,7 @@ U 1 1 553584D8
 P 6550 5200
 F 0 "C3" H 6550 5300 40  0000 L CNN
 F 1 "680pF" H 6556 5115 40  0000 L CNN
-F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering_RevA_Date25Jun2010" H 6588 5050 30  0001 C CNN
+F 2 "Resistors_Universal:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 6588 5050 30  0001 C CNN
 F 3 "~" H 6550 5200 60  0000 C CNN
 	1    6550 5200
 	1    0    0    -1  
@@ -429,7 +429,7 @@ U 1 1 58828175
 P 3150 4550
 F 0 "P3" H 3150 4750 50  0000 C CNN
 F 1 "PWR_SW" V 3250 4550 50  0000 C CNN
-F 2 "Connect:bornier3" H 3150 4550 50  0001 C CNN
+F 2 "drawdio:PWR_SW_Drawdio_SS-12D00(1P2T)" H 3150 4550 50  0001 C CNN
 F 3 "" H 3150 4550 50  0000 C CNN
 	1    3150 4550
 	0    1    1    0   
