@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jorfru/Drawdio/KiCad files/drawdio.sch</source>
+    <date>vie 20 ene 2017 18:18:56 CET</date>
+    <tool>Eeschema 4.0.2+dfsg1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Drawdio</title>
+        <company>UC3Music</company>
+        <rev>V1.0</rev>
+        <date>20 apr 2015</date>
+        <source>drawdio.sch</source>
+        <comment number="1" value="Originally designed by Jay Silver"/>
+        <comment number="2" value="Upgrades on output stage by JorFru"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>LM555N</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_LongPads</footprint>
+      <libsource lib="drawdio-rescue" part="LM555N-RESCUE-drawdio"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55357FC1</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>330K</value>
+      <footprint>Discret:R3</footprint>
+      <libsource lib="drawdio-cache" part="R-RESCUE-drawdio"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55358209</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Discret:R3</footprint>
+      <libsource lib="drawdio-cache" part="R-RESCUE-drawdio"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5535828D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Discret:R3</footprint>
+      <libsource lib="drawdio-cache" part="C-RESCUE-drawdio"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55358310</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BC558</value>
+      <footprint>Housings_TO-92:TO-92_Molded_Wide_Oval</footprint>
+      <libsource lib="transistors" part="BC558"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>553583B6</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>470uF</value>
+      <footprint>Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5</footprint>
+      <libsource lib="drawdio-cache" part="CP-RESCUE-drawdio"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55358485</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>680pF</value>
+      <footprint>Capacitors_ThroughHole:C_Rect_L4_W2.5_P2.5</footprint>
+      <libsource lib="drawdio-cache" part="C-RESCUE-drawdio"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>553584D8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>470uF</value>
+      <footprint>Capacitors_Elko_ThroughHole:Elko_vert_11.2x6.3mm_RM2.5</footprint>
+      <libsource lib="drawdio-cache" part="CP-RESCUE-drawdio"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5535860E</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>BATTERY</value>
+      <footprint>drawdio:CR2025_Keystone_3002_button_cell_holder_SMT</footprint>
+      <libsource lib="drawdio-cache" part="BATTERY"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5535868B</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X01</value>
+      <footprint>drawdio:Drawdio_conn</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56241D86</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X01</value>
+      <footprint>drawdio:Drawdio_conn</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56241E1F</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BC547</value>
+      <footprint>Housings_TO-92:TO-92_Molded_Wide_Oval</footprint>
+      <libsource lib="transistors" part="BC547"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>553583A7</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC558</value>
+      <footprint>Housings_TO-92:TO-92_Molded_Wide_Oval</footprint>
+      <libsource lib="transistors" part="BC558"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5624397B</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC547</value>
+      <footprint>Housings_TO-92:TO-92_Molded_Wide_Oval</footprint>
+      <libsource lib="transistors" part="BC547"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56243988</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X02</value>
+      <footprint>drawdio:RS_mini_speaker_724-3100</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562400DE</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>CONN_02X04</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562F6FA6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Discret:R1</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562F928B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1K</value>
+      <footprint>Discret:R1</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562F9364</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>JACK_TRS_6PINS</value>
+      <libsource lib="conn" part="JACK_TRS_6PINS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58824F43</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="drawdio-cache" part="BATTERY">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">BATTERY</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BC547">
+      <aliases>
+        <alias>BC546</alias>
+        <alias>BC548</alias>
+        <alias>BC549</alias>
+        <alias>BC550</alias>
+      </aliases>
+      <description>45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC547.pdf</docs>
+      <footprints>
+        <fp>TO-92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BC557">
+      <aliases>
+        <alias>BC556</alias>
+        <alias>BC558</alias>
+        <alias>BC559</alias>
+        <alias>BC560</alias>
+      </aliases>
+      <description>45V Vce, 0.1A Ic, PNP Small Signal Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC557.pdf</docs>
+      <footprints>
+        <fp>TO-92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC557</field>
+        <field name="Footprint">TO-92</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="drawdio-cache" part="C-RESCUE-drawdio">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-drawdio</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X04">
+      <description>Connector 02x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X04</fp>
+        <fp>Pin_Header_Angled_2X04</fp>
+        <fp>Socket_Strip_Straight_2X04</fp>
+        <fp>Socket_Strip_Angled_2X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="drawdio-cache" part="CP-RESCUE-drawdio">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-RESCUE-drawdio</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="JACK_TRS_6PINS">
+      <description>audio jack TRS 6 pins</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JACK_TRS_6PINS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="T" type="passive"/>
+        <pin num="3" name="R" type="passive"/>
+        <pin num="4" name="SN" type="passive"/>
+        <pin num="5" name="TN" type="passive"/>
+        <pin num="6" name="RN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="drawdio-rescue" part="LM555N-RESCUE-drawdio">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM555N-RESCUE-drawdio</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="drawdio-cache" part="R-RESCUE-drawdio">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-drawdio</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="drawdio-cache">
+      <uri>/home/jorfru/Drawdio/KiCad files/drawdio-cache.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>/usr/share/kicad/library/transistors.lib</uri>
+    </library>
+    <library logical="drawdio-rescue">
+      <uri>/home/jorfru/Drawdio/KiCad files/drawdio-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/pin3">
+      <node ref="P9" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="2" name="/pin5">
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="P9" pin="5"/>
+    </net>
+    <net code="3" name="/pin2">
+      <node ref="C3" pin="1"/>
+      <node ref="P9" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R1" pin="2"/>
+      <node ref="P9" pin="6"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="4" name="/pin7">
+      <node ref="U1" pin="7"/>
+      <node ref="P9" pin="7"/>
+      <node ref="R2" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(P1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C4-Pad1)">
+      <node ref="Q4" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C4-Pad2)">
+      <node ref="J1" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="P4" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="P4" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="12" name="Net-(Q3-Pad2)">
+      <node ref="Q3" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="13" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="Q2" pin="3"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="P9" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="15" name="VCC">
+      <node ref="P9" pin="8"/>
+      <node ref="P9" pin="4"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+  </nets>
+</export>

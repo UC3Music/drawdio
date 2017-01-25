@@ -50,7 +50,7 @@ U 1 1 55358209
 P 4650 3000
 F 0 "R1" V 4730 3000 40  0000 C CNN
 F 1 "330K" V 4657 3001 40  0000 C CNN
-F 2 "drawdio:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 4580 3000 30  0000 C CNN
+F 2 "drawdio:Resistor_SMD+THT" V 4580 3000 30  0000 C CNN
 F 3 "~" H 4650 3000 30  0000 C CNN
 	1    4650 3000
 	1    0    0    -1  
@@ -61,7 +61,7 @@ U 1 1 5535828D
 P 6350 3000
 F 0 "R2" V 6430 3000 40  0000 C CNN
 F 1 "10K" V 6357 3001 40  0000 C CNN
-F 2 "drawdio:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 6280 3000 30  0000 C CNN
+F 2 "drawdio:Resistor_SMD+THT" V 6280 3000 30  0000 C CNN
 F 3 "~" H 6350 3000 30  0000 C CNN
 	1    6350 3000
 	-1   0    0    1   
@@ -72,7 +72,7 @@ U 1 1 55358310
 P 4800 4150
 F 0 "C2" H 4800 4250 40  0000 L CNN
 F 1 "0.1uF" H 4806 4065 40  0000 L CNN
-F 2 "drawdio:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 4838 4000 30  0000 C CNN
+F 2 "drawdio:Resistor_SMD+THT" H 4838 4000 30  0000 C CNN
 F 3 "~" H 4800 4150 60  0000 C CNN
 	1    4800 4150
 	1    0    0    -1  
@@ -138,7 +138,7 @@ U 1 1 553584D8
 P 6550 5200
 F 0 "C3" H 6550 5300 40  0000 L CNN
 F 1 "680pF" H 6556 5115 40  0000 L CNN
-F 2 "drawdio:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" H 6588 5050 30  0001 C CNN
+F 2 "drawdio:Resistor_SMD+THT" H 6588 5050 30  0001 C CNN
 F 3 "~" H 6550 5200 60  0000 C CNN
 	1    6550 5200
 	1    0    0    -1  
@@ -357,7 +357,7 @@ U 1 1 562F928B
 P 8000 3750
 F 0 "R4" V 8080 3750 50  0000 C CNN
 F 1 "1K" V 8000 3750 50  0000 C CNN
-F 2 "drawdio:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 7930 3750 30  0001 C CNN
+F 2 "drawdio:Resistor_SMD+THT" V 7930 3750 30  0001 C CNN
 F 3 "" H 8000 3750 30  0000 C CNN
 	1    8000 3750
 	0    1    1    0   
@@ -368,7 +368,7 @@ U 1 1 562F9364
 P 7000 3750
 F 0 "R3" V 7080 3750 50  0000 C CNN
 F 1 "1K" V 7000 3750 50  0000 C CNN
-F 2 "drawdio:Resistor_SMD+THTuniversal_0805to1206_RM10_HandSoldering" V 6930 3750 30  0001 C CNN
+F 2 "drawdio:Resistor_SMD+THT" V 6930 3750 30  0001 C CNN
 F 3 "" H 7000 3750 30  0000 C CNN
 	1    7000 3750
 	0    1    1    0   
@@ -435,6 +435,17 @@ F 3 "" H 3150 4550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 3050 4350
+$Comp
+L NE555 U1
+U 1 1 5884E805
+P 5600 3950
+F 0 "U1" H 5200 4300 50  0000 L CNN
+F 1 "NE555" H 5200 3600 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_Socket_LongPads" H 5600 3950 50  0001 C CNN
+F 3 "" H 5600 3950 50  0000 C CNN
+	1    5600 3950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4400 3750 5100 3750
 Wire Wire Line
@@ -536,8 +547,6 @@ Wire Notes Line
 	6050 3300 6050 2800
 Wire Notes Line
 	6050 2800 5050 2800
-Wire Wire Line
-	2650 4900 3600 4900
 Connection ~ 7700 5100
 Wire Wire Line
 	8300 5450 8450 5450
@@ -548,14 +557,6 @@ Wire Wire Line
 	8450 5850 7700 5850
 Wire Wire Line
 	7700 5850 7700 3750
-Wire Wire Line
-	3600 4300 3250 4300
-Wire Wire Line
-	3250 4300 3250 4350
-Wire Wire Line
-	3150 4350 3150 4300
-Wire Wire Line
-	3150 4300 2650 4300
 Connection ~ 3350 4300
 Connection ~ 3350 4900
 Wire Notes Line
@@ -580,17 +581,16 @@ Wire Wire Line
 Wire Wire Line
 	8300 4850 8800 4850
 Connection ~ 8800 4850
-$Comp
-L NE555 U1
-U 1 1 5884E805
-P 5600 3950
-F 0 "U1" H 5200 4300 50  0000 L CNN
-F 1 "NE555" H 5200 3600 50  0000 L CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_Socket_LongPads" H 5600 3950 50  0001 C CNN
-F 3 "" H 5600 3950 50  0000 C CNN
-	1    5600 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5100 4150 5000 4150
+Wire Wire Line
+	2650 4900 3600 4900
+Wire Wire Line
+	3250 4300 3250 4350
+Wire Wire Line
+	3600 4300 3250 4300
+Wire Wire Line
+	3150 4350 3150 4300
+Wire Wire Line
+	3150 4300 2650 4300
 $EndSCHEMATC
