@@ -308,49 +308,12 @@ F 3 "" H 9000 5050 60  0000 C CNN
 	1    9000 5050
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_02X04 P9
-U 1 1 562F6FA6
-P 5550 3050
-F 0 "P9" H 5550 3300 50  0000 C CNN
-F 1 "CONN_02X04" H 5550 2800 50  0001 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5550 1850 60  0001 C CNN
-F 3 "" H 5550 1850 60  0000 C CNN
-	1    5550 3050
-	1    0    0    -1  
-$EndComp
-Text Label 5800 3200 0    60   ~ 0
-pin8
-Text Label 5600 3550 1    60   ~ 0
-pin8
-Text Label 5600 4350 3    60   ~ 0
-pin1
-Text Label 5300 2900 2    60   ~ 0
-pin1
-Text Label 5800 2900 0    60   ~ 0
-pin2
-Text Label 5800 3000 0    60   ~ 0
-pin4
-Text Label 5800 3100 0    60   ~ 0
-pin6
-Text Label 5300 3000 2    60   ~ 0
-pin3
-Text Label 5300 3100 2    60   ~ 0
-pin5
-Text Label 5300 3200 2    60   ~ 0
-pin7
-Text Label 4900 3750 1    60   ~ 0
-pin2
 Text Label 6300 3750 1    60   ~ 0
 pin3
 Text Label 6300 3950 1    60   ~ 0
 pin7
 Text Label 6300 4150 1    60   ~ 0
 pin6
-Text Label 5100 4150 1    60   ~ 0
-pin4
-Text Label 5100 3950 1    60   ~ 0
-pin5
 $Comp
 L R R4
 U 1 1 562F928B
@@ -383,8 +346,6 @@ Text Notes 5000 1950 0    60   ~ 0
 Pads de contacto
 Text Notes 4300 2500 0    60   ~ 0
 Oscilador
-Text Notes 5300 3300 0    60   ~ 0
-footprint SMD
 $Comp
 L JACK_TRS_6PINS J1
 U 1 1 58824F43
@@ -426,15 +387,26 @@ $EndComp
 $Comp
 L CONN_01X03 P3
 U 1 1 58828175
-P 3150 4650
-F 0 "P3" H 3150 4850 50  0000 C CNN
-F 1 "PWR_SW" V 3250 4650 50  0000 C CNN
-F 2 "drawdio:PWR_SW_Drawdio_SS-12D00(1P2T)" H 3150 4650 50  0001 C CNN
-F 3 "" H 3150 4650 50  0000 C CNN
-	1    3150 4650
-	0    -1   -1   0   
+P 3150 4550
+F 0 "P3" H 3150 4750 50  0000 C CNN
+F 1 "PWR_SW" V 3250 4550 50  0000 C CNN
+F 2 "drawdio:PWR_SW_Drawdio_SS-12D00(1P2T)" H 3150 4550 50  0001 C CNN
+F 3 "" H 3150 4550 50  0000 C CNN
+	1    3150 4550
+	0    1    1    0   
 $EndComp
-NoConn ~ 3050 4850
+NoConn ~ 3050 4350
+$Comp
+L NE555 U1
+U 1 1 5884E805
+P 5600 3950
+F 0 "U1" H 5200 4300 50  0000 L CNN
+F 1 "NE555" H 5200 3600 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_Socket_LongPads" H 5600 3950 50  0001 C CNN
+F 3 "" H 5600 3950 50  0000 C CNN
+	1    5600 3950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4400 3750 5100 3750
 Wire Wire Line
@@ -528,14 +500,6 @@ Wire Notes Line
 	6700 5650 6700 2550
 Wire Notes Line
 	6700 2550 4250 2550
-Wire Notes Line
-	5050 2800 5050 3300
-Wire Notes Line
-	5050 3300 6050 3300
-Wire Notes Line
-	6050 3300 6050 2800
-Wire Notes Line
-	6050 2800 5050 2800
 Connection ~ 7700 5100
 Wire Wire Line
 	8300 5450 8450 5450
@@ -570,27 +534,16 @@ Wire Wire Line
 Wire Wire Line
 	8300 4850 8800 4850
 Connection ~ 8800 4850
-$Comp
-L NE555 U1
-U 1 1 5884E805
-P 5600 3950
-F 0 "U1" H 5200 4300 50  0000 L CNN
-F 1 "NE555" H 5200 3600 50  0000 L CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_Socket_LongPads" H 5600 3950 50  0001 C CNN
-F 3 "" H 5600 3950 50  0000 C CNN
-	1    5600 3950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5100 4150 5000 4150
 Wire Wire Line
-	2650 4300 3600 4300
+	2650 4900 3600 4900
 Wire Wire Line
-	2650 4900 3150 4900
+	3250 4300 3250 4350
 Wire Wire Line
-	3150 4900 3150 4850
+	3600 4300 3250 4300
 Wire Wire Line
-	3250 4850 3250 4900
+	3150 4350 3150 4300
 Wire Wire Line
-	3250 4900 3600 4900
+	3150 4300 2650 4300
 $EndSCHEMATC
