@@ -1,7 +1,4 @@
-#Drawdio#
-
----------------------------------------
-
+# Drawdio
 
 UC3Music version of Drawdio, originally designed by Jay Silver
 
@@ -12,7 +9,7 @@ Double side copper board, big and spacy pads (ready for first-time soldering)
 *Uc3Music's enchancement: New output stage to provide twice output voltage and raise volume.*
 
 
-========================================
+---------------------------------------
 
 Versión UC3Music del Drawdio, diseñado originalmente por Jay Silver
 
