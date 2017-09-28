@@ -20,5 +20,5 @@ PCB de doble cara, pads grandes y espaciados (facil de soldar por noveles)
 *Mejora de UC3Music: nueva etapa de salida que proporciona el doble de voltaje de salida para conseguir más volumen de salida.*
 
 <p align="center">
-<img src="/media/drawdioV1.0.png" width="100%">
+<img src="/media/drawdioV2" width="100%">
 </p>
